@@ -1,6 +1,6 @@
 # Personal RAG Knowledge Base
 
-A retrieval-augmented generation system that lets you ask natural language questions about your own documents — PDFs and Markdown notes — and get grounded answers with source citations.
+A retrieval-augmented generation system that lets you ask natural language questions about your own documents, PDFs and Markdown notes for now and get grounded answers with source citations.
 
 Built as a learning project to understand how RAG pipelines actually work under the hood, without relying on frameworks like LangChain.
 
