@@ -21,15 +21,15 @@ Built as a learning project to understand how RAG pipelines actually work under 
 - **pypdf / tiktoken** — PDF parsing and token-aware chunking
 
 ## Project structure
-src/
-├── ingestion/      # PDF and Markdown loaders, token-based chunker
-├── embeddings/      # OpenAI embedding wrapper
-├── vectorstore/     # Qdrant client wrapper
-├── retrieval/       # Semantic search + context formatting
-├── generation/      # GPT-4o prompting and streaming
-└── api/             # FastAPI app, /ingest and /query routes
-frontend/
-└── app.py           # Streamlit chat interface
+src/  
+├── ingestion/      # PDF and Markdown loaders, token-based chunker  
+├── embeddings/      # OpenAI embedding wrapper  
+├── vectorstore/     # Qdrant client wrapper  
+├── retrieval/       # Semantic search + context formatting  
+├── generation/      # GPT-4o prompting and streaming  
+└── api/             # FastAPI app, /ingest and /query routes  
+frontend/  
+└── app.py           # Streamlit chat interface  
 
 ## Setup
 
